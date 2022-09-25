@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Internal css-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Position analysis</title>
+    <style>
+        .container{
+            display:flex;
+            position:relative;
+        }
+        .box{
+            width:100px;
+            height:100px;
+            margin:5px;
+            background-color:burlywood;
+            border:2px solid black;
+        }
+        /*
+        relative positon এর কাজ 
+        .box-2{
+            position:relative;
+           left:80px;
+            /*left:-20px;
+            z-index:2;
+        }
+        .box-3{
+            z-index:1;
+        }
+        */
+        /* absolute position এর কাজ */
+        .box-2{
+            position:absolute;
+            top:40px;
+            left:40px;
+        }
+        .box-3{
+            z-index:1;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Position</h1>
+    <h3>More position</h3>
+    <section class="container">
+        <div class="box box-1"><!--    .box.box-$*4>h3{box-$}     -->
+            <h3>box-1</h3>
+        </div>
+        <div class="box box-2">
+            <h3>box-2</h3>
+        </div>
+        <div class="box box-3">
+            <h3>box-3</h3>
+        </div>
+        <div class="box box-4">
+            <h3>box-4</h3>
+        </div>
+    </section>
+</body>
+</html>

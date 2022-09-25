@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .photo-frame{
+            width:300px;
+            height:222px;
+            border:5px solid red;
+            border-radius:5px;
+            position:relative;
+            margin:10px;
+            overflow:hidden;
+        }
+        .photo-frame .photo img{
+            width:100%;
+        }
+        .Lion-describ{
+            position:absolute;
+            width:300px;
+            height:222px;
+            top:0;
+            display:none;
+        }
+        .photo-frame:hover .Lion-describ{
+            display: block;  /*কোনো line এর উপর এ comment করতে হলে প্রথম এ ctrl + {  slash / }  চিহ্ন ব্যবহার করতে হবে*/
+            cursor: pointer;
+            background-color: rgba(214, 18, 93, .25);
+        }
+        .photo-frame:hover h3{
+            color:white;
+            background-color: black;
+            text-align:center;
+        }
+        .photo-frame:hover p{
+            color:white;
+        }
+        .photo-frame:hover .photo img{
+            transform:scale(1.2);
+            /* transform: rotate(360deg); */
+            /* transform: skew(30deg); */
+            /* transform:skew(-30deg); */
+            transition:transform 2s;
+        }
+
+        .photo-album{
+            display: flex;
+            flex-wrap:wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Photo Book</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="images/lion.jpg" alt="lion"></div>
+            <div class="Lion-describ">
+                <h3>Lion</h3>
+                <p>Lion is a ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat provident veniam dignissimos atque, expedita repellendus dolores sit hic ullam dolore aspernatur et, voluptatem fugit doloribus id minima dolorem.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
